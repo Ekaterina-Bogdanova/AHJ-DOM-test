@@ -1,0 +1,1 @@
+(()=>{"use strict";var e,o,t,l=document.querySelectorAll(".hole");document.addEventListener("DOMContentLoaded",void setInterval((function(){e=document.querySelector(".hole_has-goblin");do{t=Math.floor(1+12*Math.random()),o=l[t-1]}while(e&&o===e);e&&(e.className="hole"),o.classList.add("hole_has-goblin")}),800))})();
